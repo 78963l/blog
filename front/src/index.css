@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: "Pretendard-Regular";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html {
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: calc(6.4px + 0.5vw);
+  }
+  body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 1.4rem;
+    overflow: hidden;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  label {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
