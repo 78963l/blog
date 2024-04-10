@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -1,
     "scrollLeft": -279.20000000000005,
     "zoomLevel": 0.9,
     "show": {
@@ -227,7 +227,7 @@
         "columns": [
           {
             "id": "d038df80-70e4-46bf-8c89-e4740a97fccb",
-            "name": "boardNm",
+            "name": "boardCnt",
             "comment": " 게시물 번호",
             "dataType": "INT",
             "default": "AUTO_INCREMENT",
@@ -414,7 +414,7 @@
           "active": false,
           "left": 596,
           "top": 176,
-          "zIndex": 9,
+          "zIndex": 13,
           "widthName": 60,
           "widthComment": 84.5703125,
           "color": "#2196F3"
@@ -669,7 +669,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 325,
           "top": 478,
           "zIndex": 11,
